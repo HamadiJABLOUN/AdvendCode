@@ -1,13 +1,13 @@
-package hja;
+package advent.hja;
+
+import advent.hja.utils.InputUtils;
 
 import java.util.*;
-
-import static hja.utils.InputUtils.getLines;
 
 public class Day3Part2 {
 
     public static void main(String[] args) {
-        Integer sumCalories = getSumPriorities(getLines("input.day3"));
+        Integer sumCalories = getSumPriorities(InputUtils.getLines("input.day3"));
         System.out.println(sumCalories);
     }
 

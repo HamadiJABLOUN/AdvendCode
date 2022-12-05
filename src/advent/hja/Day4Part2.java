@@ -1,17 +1,16 @@
-package hja;
+package advent.hja;
 
-import hja.utils.Interval;
+import advent.hja.type.Interval;
 
-import java.time.temporal.ValueRange;
 import java.util.List;
 
-import static hja.utils.InputUtils.getLines;
+import static advent.hja.utils.InputUtils.getLines;
 
-public class Day4Part1 {
-    //584
+public class Day4Part2 {
+    //933
     public static void main(String[] args) {
-        Integer sumCalories = getSumSections(getLines("input.day4"));
-        System.out.println("Part 1 ==> " + sumCalories);
+        Integer sectionsSum = getSumSections(getLines("input.day4"));
+        System.out.println("Part 2 ==> " + sectionsSum);
     }
 
     private static Integer getSumSections(List<String> input) {
@@ -22,8 +21,7 @@ public class Day4Part1 {
             Interval intervalElf1 = getInterval(interval, 0);
             Interval intervalElf2 = getInterval(interval, 1);
 
-            if ((intervalElf1.min() <= intervalElf2.min()) && intervalElf1.max() >= intervalElf2.max()
-                    || (intervalElf2.min() <= intervalElf1.min()) && intervalElf2.max() >= intervalElf1.max()) {
+            if (intervalElf1.intersects(intervalElf2)) {
                 somme++;
             }
 

@@ -1,5 +1,5 @@
 //From https://introcs.cs.princeton.edu/java/32class/Interval.java.html
-package hja.utils;
+package advent.hja.type;
 
 public record Interval(double min, double max) {
     /**

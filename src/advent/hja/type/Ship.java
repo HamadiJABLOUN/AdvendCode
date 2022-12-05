@@ -1,4 +1,4 @@
-package hja.day5;
+package advent.hja.type;
 
 import java.util.ArrayList;
 import java.util.Deque;

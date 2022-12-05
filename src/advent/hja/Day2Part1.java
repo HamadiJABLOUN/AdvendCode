@@ -1,17 +1,15 @@
-package hja;
+package advent.hja;
+
+import advent.hja.utils.InputUtils;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Objects;
 
-import static hja.utils.InputUtils.getLines;
-
 public class Day2Part1 {
-
-
     public static void main(String[] args) {
 
-        List<String> rounds = getLines("input.day2");
+        List<String> rounds = InputUtils.getLines("input.day2");
 
         HashMap<String, String> judge = new HashMap<>();
         judge.put("A", "Z");

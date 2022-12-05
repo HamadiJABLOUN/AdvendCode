@@ -1,10 +1,8 @@
-package hja;
+package advent.hja;
 
-import java.time.temporal.ValueRange;
 import java.util.*;
-import java.util.stream.IntStream;
 
-import static hja.utils.InputUtils.getLines;
+import static advent.hja.utils.InputUtils.getLines;
 
 public class Day3Part1 {
 

@@ -1,13 +1,15 @@
-package hja.day5;
+package advent.hja;
+
+import advent.hja.type.Move;
+import advent.hja.utils.InputUtils;
+import advent.hja.type.Ship;
 
 import java.util.*;
-
-import static hja.utils.InputUtils.getLinesWithEmpty;
 
 public class Day5Part12 {
 
     public static void main(String[] args) {
-        String stacksHead = getStacksHead(getLinesWithEmpty("input.day51.txt"), 9);
+        String stacksHead = getStacksHead(InputUtils.getLinesWithEmpty("input.day51.txt"), 9);
         System.out.println("Result ==> " + stacksHead);
     }
 

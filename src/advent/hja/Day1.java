@@ -1,10 +1,10 @@
-package hja;
+package advent.hja;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import static hja.utils.InputUtils.getLines;
+import static advent.hja.utils.InputUtils.getLines;
 
 public class Day1 {
 
