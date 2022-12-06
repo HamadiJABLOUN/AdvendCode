@@ -10,8 +10,8 @@ Day 1 | ⭐ ⭐  | JAVA
 Day 2 | ⭐ ⭐  | JAVA
 Day 3 | ⭐ ⭐  | JAVA
 Day 4 | ⭐ ⭐  | JAVA
-Day 5 | ⭐ ⭐  |
-Day 6 |       |
+Day 5 | ⭐ ⭐  | JAVA
+Day 6 | ⭐ ⭐  | JAVA
 Day 7 |       |
 Day 8 |       |
 Day 9 |       |
