@@ -20,7 +20,7 @@ public class Day6Part12 {
     private static Integer getMarkerStartedIndex(List<String> input, int lengthOfMarker) {
         String message = input.get(0);
         String marker = "";
-        while (message.length() >= 4) {
+        while (message.length() >= lengthOfMarker) {
             marker = message.substring(0, lengthOfMarker);
             if (isContainsDouble(marker)) {
                 break;
