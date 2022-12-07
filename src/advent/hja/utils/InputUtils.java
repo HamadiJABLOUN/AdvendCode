@@ -20,14 +20,7 @@ public class InputUtils {
         }
         assert content != null;
         String[] split = content.split("\n");
-        for(int i=0;i< split.length;i++)
-        {
 
-            if (split[i].length() != 35)
-            {
-                split[i] = split[i] + "                                                                     ";
-            }
-        }
         return Arrays.stream(split).toList();
     }
 
