@@ -14,8 +14,8 @@ Day 5 | ⭐ ⭐  | JAVA
 Day 6 | ⭐ ⭐  | JAVA
 Day 7 | ⭐ ⭐  | JAVA
 Day 8 | ⭐ ⭐  | JAVA
-Day 9 |       |
-Day 10|       |
+Day 9 | ⭐ ⭐  | JAVA
+Day 10 | ⭐ ⭐  | JAVA
 Day 11|       |
 Day 13|       |
 Day 14|       |
